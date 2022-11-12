@@ -96,7 +96,38 @@ Packages
 
 .. toctree::
     :maxdepth: 1
+<<<<<<< HEAD
     :caption: API
+=======
+    :caption: Benchmarks:
+
+    notebooks/OTT_&_POT.ipynb
+    notebooks/One_Sinkhorn.ipynb
+    notebooks/LRSinkhorn.ipynb
+
+.. toctree::
+    :maxdepth: 1
+    :caption: Advanced Applications:
+
+    notebooks/Sinkhorn_Barycenters.ipynb
+    notebooks/gromov_wasserstein.ipynb
+    notebooks/GWLRSinkhorn.ipynb
+    notebooks/Hessians.ipynb
+    notebooks/soft_sort.ipynb
+    notebooks/application_biology.ipynb
+    notebooks/gromov_wasserstein_multiomics.ipynb
+    notebooks/fairness.ipynb
+    notebooks/neural_dual.ipynb
+    notebooks/icnn_inits.ipynb
+    notebooks/wasserstein_barycenters_gmms.ipynb
+    notebooks/gmm_pair_demo.ipynb
+    notebooks/MetaOT.ipynb
+    notebooks/entropic_map_estimator.ipynb
+
+.. toctree::
+    :maxdepth: 1
+    :caption: Public API: ott packages
+>>>>>>> 665e34a (entropic estimation notebook)
 
     geometry
     problems/index
